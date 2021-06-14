@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4941747.svg)](https://doi.org/10.5281/zenodo.4941747)
+
 # Antibiotic treatment increases bacterial community diversity in the sea anemone, _Exaiptasia diaphana_
 
 This repo contains the QIIME2 and R code used to analyse data from a study described by the following abstract:
