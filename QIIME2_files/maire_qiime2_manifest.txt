@@ -1,0 +1,10 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+b1Bleach1	~/maire/seqs/raw/SRR12524433_1.fastq.gz	~/maire/seqs/raw/SRR12524433_2.fastq.gz
+b1Bleach2	~/maire/seqs/raw/SRR12524432_1.fastq.gz	~/maire/seqs/raw/SRR12524432_2.fastq.gz
+b1Bleach3	~/maire/seqs/raw/SRR12524431_1.fastq.gz	~/maire/seqs/raw/SRR12524431_2.fastq.gz
+b1Filtrate1	~/maire/seqs/raw/SRR12524430_1.fastq.gz	~/maire/seqs/raw/SRR12524430_2.fastq.gz
+b1Filtrate2	~/maire/seqs/raw/SRR12524429_1.fastq.gz	~/maire/seqs/raw/SRR12524429_2.fastq.gz
+b1Filtrate3	~/maire/seqs/raw/SRR12524427_1.fastq.gz	~/maire/seqs/raw/SRR12524427_2.fastq.gz
+b1Retentate1	~/maire/seqs/raw/SRR12524426_1.fastq.gz	~/maire/seqs/raw/SRR12524426_2.fastq.gz
+b1Retentate2	~/maire/seqs/raw/SRR12524425_1.fastq.gz	~/maire/seqs/raw/SRR12524425_2.fastq.gz
+b1Retentate3	~/maire/seqs/raw/SRR12524424_1.fastq.gz	~/maire/seqs/raw/SRR12524424_2.fastq.gz

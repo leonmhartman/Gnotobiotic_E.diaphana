@@ -1,0 +1,83 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	SampleType	Treatment	Day	Description
+gc01			Anemone	Control	0	gc01
+gc02			Anemone	Control	0	gc02
+gc03			Anemone	Control	0	gc03
+gc04			Anemone	Control	0	gc04
+gc05			Anemone	Control	0	gc05
+gc06			Anemone	Control	0	gc06
+gt01			Anemone	Treatment	0	gt01
+gt02			Anemone	Treatment	0	gt02
+gt03			Anemone	Treatment	0	gt03
+gt04			Anemone	Treatment	0	gt04
+gt05			Anemone	Treatment	0	gt05
+gt06			Anemone	Treatment	0	gt06
+gc11			Anemone	Control	1	gc11
+gc12			Anemone	Control	1	gc12
+gc13			Anemone	Control	1	gc13
+gc14			Anemone	Control	1	gc14
+gc15			Anemone	Control	1	gc15
+gc16			Anemone	Control	1	gc16
+gt11			Anemone	Treatment	1	gt11
+gt12			Anemone	Treatment	1	gt12
+gt13			Anemone	Treatment	1	gt13
+gt14			Anemone	Treatment	1	gt14
+gt15			Anemone	Treatment	1	gt15
+gt16			Anemone	Treatment	1	gt16
+gc31			Anemone	Control	3	gc31
+gc32			Anemone	Control	3	gc32
+gc33			Anemone	Control	3	gc33
+gc34			Anemone	Control	3	gc34
+gc35			Anemone	Control	3	gc35
+gc36			Anemone	Control	3	gc36
+gt31			Anemone	Treatment	3	gt31
+gt32			Anemone	Treatment	3	gt32
+gt33			Anemone	Treatment	3	gt33
+gt34			Anemone	Treatment	3	gt34
+gt35			Anemone	Treatment	3	gt35
+gt36			Anemone	Treatment	3	gt36
+gc71			Anemone	Control	7	gc71
+gc72			Anemone	Control	7	gc72
+gc73			Anemone	Control	7	gc73
+gc74			Anemone	Control	7	gc74
+gc75			Anemone	Control	7	gc75
+gc76			Anemone	Control	7	gc76
+gt71			Anemone	Treatment	7	gt71
+gt72			Anemone	Treatment	7	gt72
+gt73			Anemone	Treatment	7	gt73
+gt74			Anemone	Treatment	7	gt74
+gt75			Anemone	Treatment	7	gt75
+gt76			Anemone	Treatment	7	gt76
+gc141			Anemone	Control	14	gc141
+gc142			Anemone	Control	14	gc142
+gc143			Anemone	Control	14	gc143
+gc144			Anemone	Control	14	gc144
+gc145			Anemone	Control	14	gc145
+gc146			Anemone	Control	14	gc146
+gt141			Anemone	Treatment	14	gt141
+gt142			Anemone	Treatment	14	gt142
+gt143			Anemone	Treatment	14	gt143
+gt144			Anemone	Treatment	14	gt144
+gt145			Anemone	Treatment	14	gt145
+gt146			Anemone	Treatment	14	gt146
+gc211			Anemone	Control	21	gc211
+gc212			Anemone	Control	21	gc212
+gc213			Anemone	Control	21	gc213
+gc214			Anemone	Control	21	gc214
+gc215			Anemone	Control	21	gc215
+gc216			Anemone	Control	21	gc216
+gt211			Anemone	Treatment	21	gt211
+gt212			Anemone	Treatment	21	gt212
+gt213			Anemone	Treatment	21	gt213
+gt214			Anemone	Treatment	21	gt214
+gt215			Anemone	Treatment	21	gt215
+gt216			Anemone	Treatment	21	gt216
+gca1			Artemia	Control		gca1
+gca2			Artemia	Control		gca2
+gca3			Artemia	Control		gca3
+ge-blank			blankExt	NegCon		ge-blank
+gneg1			blankPCR	NegCon		gneg1
+gneg2			blankPCR	NegCon		gneg2
+gneg3			blankPCR	NegCon		gneg3
+gta1			Artemia	Treatment		gta1
+gta2			Artemia	Treatment		gta2
+gta3			Artemia	Treatment		gta3

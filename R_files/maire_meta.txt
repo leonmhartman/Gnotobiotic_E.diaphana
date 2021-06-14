@@ -1,0 +1,10 @@
+sample-id	sample_type	replicate
+b1Bleach1	intra	1
+b1Bleach2	intra	2
+b1Bleach3	intra	3
+b1Filtrate1	loose	1
+b1Filtrate2	loose	2
+b1Filtrate3	loose	3
+b1Retentate1	close	1
+b1Retentate2	close	2
+b1Retentate3	close	3

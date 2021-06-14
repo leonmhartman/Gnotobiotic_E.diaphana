@@ -1,0 +1,83 @@
+SampleID	SampleType	Treatment	Day
+gc01	Anemone	Control	0
+gc02	Anemone	Control	0
+gc03	Anemone	Control	0
+gc04	Anemone	Control	0
+gc05	Anemone	Control	0
+gc06	Anemone	Control	0
+gt01	Anemone	Treatment	0
+gt02	Anemone	Treatment	0
+gt03	Anemone	Treatment	0
+gt04	Anemone	Treatment	0
+gt05	Anemone	Treatment	0
+gt06	Anemone	Treatment	0
+gc11	Anemone	Control	1
+gc12	Anemone	Control	1
+gc13	Anemone	Control	1
+gc14	Anemone	Control	1
+gc15	Anemone	Control	1
+gc16	Anemone	Control	1
+gt11	Anemone	Treatment	1
+gt12	Anemone	Treatment	1
+gt13	Anemone	Treatment	1
+gt14	Anemone	Treatment	1
+gt15	Anemone	Treatment	1
+gt16	Anemone	Treatment	1
+gc31	Anemone	Control	3
+gc32	Anemone	Control	3
+gc33	Anemone	Control	3
+gc34	Anemone	Control	3
+gc35	Anemone	Control	3
+gc36	Anemone	Control	3
+gt31	Anemone	Treatment	3
+gt32	Anemone	Treatment	3
+gt33	Anemone	Treatment	3
+gt34	Anemone	Treatment	3
+gt35	Anemone	Treatment	3
+gt36	Anemone	Treatment	3
+gc71	Anemone	Control	7
+gc72	Anemone	Control	7
+gc73	Anemone	Control	7
+gc74	Anemone	Control	7
+gc75	Anemone	Control	7
+gc76	Anemone	Control	7
+gt71	Anemone	Treatment	7
+gt72	Anemone	Treatment	7
+gt73	Anemone	Treatment	7
+gt74	Anemone	Treatment	7
+gt75	Anemone	Treatment	7
+gt76	Anemone	Treatment	7
+gc141	Anemone	Control	14
+gc142	Anemone	Control	14
+gc143	Anemone	Control	14
+gc144	Anemone	Control	14
+gc145	Anemone	Control	14
+gc146	Anemone	Control	14
+gt141	Anemone	Treatment	14
+gt142	Anemone	Treatment	14
+gt143	Anemone	Treatment	14
+gt144	Anemone	Treatment	14
+gt145	Anemone	Treatment	14
+gt146	Anemone	Treatment	14
+gc211	Anemone	Control	21
+gc212	Anemone	Control	21
+gc213	Anemone	Control	21
+gc214	Anemone	Control	21
+gc215	Anemone	Control	21
+gc216	Anemone	Control	21
+gt211	Anemone	Treatment	21
+gt212	Anemone	Treatment	21
+gt213	Anemone	Treatment	21
+gt214	Anemone	Treatment	21
+gt215	Anemone	Treatment	21
+gt216	Anemone	Treatment	21
+gca1	Artemia	Control	
+gca2	Artemia	Control	
+gca3	Artemia	Control	
+ge-blank	blankExt	NegCon	
+gneg1	blankPCR	NegCon	
+gneg2	blankPCR	NegCon	
+gneg3	blankPCR	NegCon	
+gta1	Artemia	Treatment	
+gta2	Artemia	Treatment	
+gta3	Artemia	Treatment	
