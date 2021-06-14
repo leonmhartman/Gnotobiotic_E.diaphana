@@ -6,4 +6,4 @@ This repo contains the QIIME2 and R code used to analyse data from a study descr
 
 ## Information
 
-The raw sequencing data for this study is deposited on the NCBI SRA: PRJNA698456. Raw sequencing data from Maire et al. (2021) was also used in the study and can be found on the NCBI SRA: PRJNA650221.
+The raw sequencing data for this study is deposited under NCBI SRA: PRJNA698456. Raw sequencing data from Maire et al. (2021) was also used in this study and can be found under NCBI SRA: PRJNA650221.
