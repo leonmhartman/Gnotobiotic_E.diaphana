@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4941747.svg)](https://doi.org/10.5281/zenodo.4941747)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4941748.svg)](https://doi.org/10.5281/zenodo.4941748)
 
 # Antibiotic treatment increases bacterial community diversity in the sea anemone, _Exaiptasia diaphana_
 
