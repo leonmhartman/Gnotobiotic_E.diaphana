@@ -52,13 +52,14 @@ minVal <- 1000
 tolerant <- which(means$Day0 >= minVal & means$Day1 >= minVal & means$Day3 >= minVal & means$Day7 >= minVal & means$Day14 >= minVal & means$Day21 >= minVal)
 means <- means[tolerant,]
 sems <- sems[tolerant,]
-  
+# 16 tolerant ASVs were identified
+
 # get taxa names
 vvv <- match(row.names(means), row.names(gnotoTax))
 means <- cbind(means, gnotoTax[vvv,2:7])
 
 
-# which ASVs were also present in the antibiotic-treated artemia?
+# which tolerant ASVs were also present in the antibiotic-treated artemia?
 artemia <- subset_samples(phy, SampleType == "Artemia" & Treatment == "Treatment")
 artemia <- prune_taxa((taxa_sums(artemia) > 0), artemia)
 intersect(row.names(means), rownames(artemia@tax_table))
@@ -66,6 +67,20 @@ intersect(row.names(means), rownames(artemia@tax_table))
 # [3] "11bb58be038678b5e2b1878c01140c05" "53818a706e38c1584f139d2f90fbd8df"
 # [5] "107e04ddc4519998efd0c7f0d4a3c619" "acd191a5f307d0579b3126166f102435"
 
+
+# were the tolerant ASVs also present in the control anemones?
+controls <- subset_samples(phy, SampleType == "Anemone" & Treatment == "Control")
+controls <- prune_taxa((taxa_sums(controls) > 0), controls)
+intersect(row.names(means), rownames(controls@tax_table))
+# [1] "613a6844484c3b2f90d38399d2698624" "2832a0bcf6ae6d1d6c9e67822301c207"
+# [3] "dc984a63d7d685f878587c30e0d8f18f" "0142e3efbe4c804a7b44f9ddbfc319a6"
+# [5] "4cf05c2c773187a18f17016856d1d3c6" "e3c9fb8d8e882e9f6d98ff1d7c32f03f"
+# [7] "ae8a6381f4e78d50e3fad0e2faad8ea0" "11bb58be038678b5e2b1878c01140c05"
+# [9] "682e5342211c704576db92e0bb567c8e" "3cf1c3677b74a3ab095f77b115f0ec14"
+# [11] "e0cc6a95596c1068ec99eb67cea8d93e" "53818a706e38c1584f139d2f90fbd8df"
+# [13] "107e04ddc4519998efd0c7f0d4a3c619" "acd191a5f307d0579b3126166f102435"
+# [15] "26a930ff8d7ae487ae9b3beaf07b53ca" "05ee672c13ca2e0e6c44a8c8ec463c05"
+# all 16 tolerant ASVs were present in the control anemones
 
 
 # did the abundance of the tolerant ASVs change significantly from
