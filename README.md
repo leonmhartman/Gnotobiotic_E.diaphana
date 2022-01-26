@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4941748.svg)](https://doi.org/10.5281/zenodo.4941748)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5904928.svg)](https://doi.org/10.5281/zenodo.5904928)
 
 This repo contains the QIIME2 and R code for original research published in _Access Microbiology_:
 https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.000314
