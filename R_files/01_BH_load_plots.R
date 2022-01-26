@@ -51,20 +51,11 @@ ggplot(bact, aes(x=day, y=ratio, group=treatCode, color=treatCode)) +
 
 artemia <- bh[73:78,c(2,9)]
 
-meanControl <- mean(artemia$ratio[1:3])
-meanTreated <- mean(artemia$ratio[4:6])
-means <- c(meanControl,meanTreated)
-semsControl <- std.error(artemia$ratio[1:3])
-semsTreated <- std.error(artemia$ratio[4:6])
-sems <- c(semsControl,semsTreated)
-treatCode <- c("control","treated")
-art <- data.frame(treatCode,means,sems)
-
-ggplot(art, aes(fill=treatCode, y=means, x=treatCode)) +
-  geom_bar(stat = "identity") +
-  geom_errorbar(aes(ymin=means-(sems), ymax=means+(sems)), width=.1) +
+ggplot(artemia, aes(x=treatment, y=ratio)) +
+  geom_boxplot() +
+  geom_dotplot(aes(color = treatment, fill = treatment), binaxis='y', stackdir='center') +
   theme_bw() +
   theme(legend.position=c(0.9,0.9)) +
-  ylim(0,0.12)
+  ylim(0,0.15)
 
 rm(list = ls())
